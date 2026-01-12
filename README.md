@@ -150,29 +150,6 @@ for i, output in enumerate(outputs):
     print(f"Output: {tokenizer.decode(output, skip_special_tokens=True)}\n")
 ```
 
-## 📁 Repository Structure
-
-```
-recursive-language-model-48m/
-├── model/
-│   ├── config.py           # Model configuration
-│   ├── architecture.py     # Model architecture
-│   └── router.py           # Recursion depth router
-├── training/
-│   ├── train.py            # Training script
-│   ├── dataset.py          # Data loading utilities
-│   └── config.yaml         # Training configuration
-├── inference/
-│   ├── generate.py         # Text generation script
-│   └── utils.py            # Helper functions
-├── notebooks/
-│   ├── training_demo.ipynb
-│   └── inference_demo.ipynb
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
 ## 🎯 Use Cases
 
 ### ✅ Recommended Applications
